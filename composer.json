@@ -1,0 +1,19 @@
+{
+    "name": "projectscomposer/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Projectscomposer\\BelajarPhpComposerHello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sultan Mahdi",
+            "email": "sultannmhdi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
